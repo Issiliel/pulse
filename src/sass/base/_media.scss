@@ -1,0 +1,223 @@
+@media (max-width: 1200px) {
+    .promo {
+        padding: 21px 21px 93px;
+        &__title {
+            font-size: 37px;  
+        }
+       &__subtitle {
+            font-size: 22px;  
+       } 
+    }
+}
+
+@media (max-width: 991px) {
+    .promo {
+        &__title {
+            font-size: 33px;  
+        }
+       &__subtitle {
+            font-size: 19px;  
+       } 
+    }
+    .button_main {
+        width: 270px;
+    }
+    .advantages {
+        padding: 40px 0;
+        &__item {
+            padding: 0 15px;
+            flex-wrap: wrap;
+        }
+    }
+    .consultation {
+        padding: 50px 15px;
+        &__title {
+            font-size: 30px;  
+        }
+    }
+    .pageup {
+        width: 40px;
+        height: 40px;
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        &__official {
+            display: none;
+        }
+    }
+    .promo {
+        &__subtitle {
+            font-size: 16px;
+        }
+    }
+    .advantages {
+        &__title {
+            font-size: 27px;
+        }
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+    .consultation {
+        &__title {
+            font-size: 23px;  
+            line-height: 35px;
+        }
+        &__text {
+            font-size: 18px;  
+            line-height: 25px;
+        }
+    }
+    .next, .prev {
+        display: none;
+    }
+    .catalog {
+        &__tabs {
+            flex-wrap: wrap;
+        }
+        &__tab {
+            margin-bottom: 12px;
+        }
+        &__title {
+            font-size: 27px;
+        }
+    }
+    .reviews {
+        &__item {
+            flex-direction: column;
+            align-items:center;
+            &:not(:last-child) {
+                margin-bottom: 40px;
+            }
+            img {
+                margin-bottom: 25px;
+                margin-right: 0;
+            }
+        }
+        &__title {
+            font-size: 27px;
+            margin-bottom: 35px;
+        }
+        &__text {
+            text-align: center;
+        }
+        &__descr {
+            text-align: left;
+        }
+    }
+    .footer {
+        &__info {
+            top: 50%;
+            width: 339px;
+            height: 200px;
+            padding: 20px;
+        }
+        &__social-link {
+            margin: 0 8px;
+            img {
+                width: 45px;
+                height: 45px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        margin-bottom: 60px;
+        &__logo {
+            max-width: 159px;
+        }
+        &__phone {
+            font-size: 15px;
+        }
+    }
+    .button {
+        width: 110px;
+        font-size: 10px;
+        &_main {
+            width: 280px;
+        }
+        &_subbmit {
+            width: 100%;
+            font-size: 16px
+        }
+        &_mini {
+            width: 135px;
+            height: 44px;
+            font-size: 14px;
+        }
+    }
+    .promo {
+        padding: 21px;
+        &__title {
+            font-size: 25px;  
+            text-align: center;
+        }
+       &__subtitle {
+            text-align: center;
+            margin-bottom: 50px;
+        } 
+       &__icons {
+            margin-bottom: 50px;
+        }
+        &__link {
+            font-size: 14px;
+        }
+    }
+    .advantages {
+        padding: 21px 0;
+        &__title {
+            font-size: 23px;
+            margin-bottom: 40px;
+        }
+    }
+    .consultation {
+        &__title {
+            font-size: 20px;  
+            text-align: center;
+        }
+        &__text {
+            font-size: 16px;  
+            text-align: center;
+        }
+    }
+    .feed-form {
+        width: 220px;
+    }
+    .catalog {
+        padding-top: 0px;
+        &__title {
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+        &__tabs {
+            margin-bottom: 25px;
+        }
+        &__tab {
+            font-size: 16px;
+        }
+    }
+    .reviews {
+        &__title {
+            font-size: 20px;
+        }
+    }
+    .modal {
+        padding: 15px;
+        &__close {
+            right: -25px;
+        }
+    }
+    .pageup {
+        width: 30px;
+        height: 30px;
+        bottom: 10px;
+        right: 10px;
+    }
+}
